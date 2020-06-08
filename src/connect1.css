@@ -1,0 +1,40 @@
+    h1 {
+        background-color: rgb(37, 36, 36);
+        padding: 40px 40px;
+        font-family: sans;
+        color: white;
+        border-left-style: ridge;
+        border-left-color: red;
+        border-left-width: 7px;
+    }
+    
+    p {
+        font-family: sans;
+        font-size: 23px;
+        color: white;
+        border-left-style: ridge;
+        border-left-color: red;
+        border-left-width: 7px;
+        background-color: rgb(37, 36, 36);
+        padding: 40px 40px;
+    }
+    
+    a:link,
+    a:visited {
+        border-color: silver;
+        border-style: groove;
+        background-color: red;
+        font-size: 17px;
+        color: black;
+        font-family: serif;
+        padding: 15px 15px;
+        width: 30px;
+        height: 15px;
+        text-align: center;
+        padding-align: center;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: whitesmoke;
+    }
