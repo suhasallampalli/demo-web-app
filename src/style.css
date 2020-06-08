@@ -4,6 +4,18 @@ p {
     padding: 15px 15px;
     font-family: serif;
     font-size: 22px;
+    line-height: 1px;
+}
+
+.instructors {
+    background-color: black;
+    padding: 10px 10px;
+    font-family: sans;
+    color: white;
+    border-left-style: ridge;
+    border-left-color: red;
+    border-left-width: 7px;
+    line-height: 1px;
 }
 
 h2 {
