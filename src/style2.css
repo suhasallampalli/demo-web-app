@@ -17,9 +17,10 @@ p {
 }
 
 .abc {
+    width: 300px;
     border-color: red;
     border-style: ridge;
-    padding: 50px 50px;
+    padding: 100px 24px;
 }
 
 h4 {

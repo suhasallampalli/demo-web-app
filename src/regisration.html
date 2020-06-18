@@ -2,91 +2,93 @@
 
 <head>
     <title>
-        Linker
+        Registration
     </title>
     <style>
         h1 {
-            background-color: black;
-            color: silver;
-            font-family: serif;
-            font-size: 25;
-            text-shadow: 4px;
+            background-color: rgb(37, 36, 36);
+            padding: 40px 40px;
+            font-family: sans;
+            color: white;
+            border-left-style: ridge;
+            border-left-color: red;
+            border-left-width: 7px;
         }
         
         p {
-            background-color: red;
-            color: black;
-            font-family: sans;
-            font size: 18;
-            padding: 4px;
-            text-shadow: 3px;
+            background-color: black;
+            color: white;
+            padding: 15px 15px;
+            font-family: serif;
+            font-size: 18px;
+            line-height: 1px;
         }
     </style>
 </head>
 
-<body bgcolor="white">
-    <h1 align="center">Sample Form</h1>
+<body bgcolor="black">
+    <h1 align="center">Registration Form</h1>
     <center>
         <form action="file:///C:/Users/Administrator/Desktop/PP/demo-web-app/src/index.html">
-            <label for="fname">First name:</label>
+            <label for="fname"><p>First name:</p></label>
             <input type="text" id="fname" name="fname">
             <br>
             <br>
-            <label for="lname">Last name:</label>
+            <label for="lname"><p>Last name:</p></label>
             <input type="text" id="lname" name="lname">
             <br>
             <br>
             <input type="radio" id="male" name="Gender" value="male">
-            <label for="male">Male</label>
+            <label for="male"><p>Male</p></label>
             <br>
             <input type="radio" id="female" name="Gender" value="female">
-            <label for="female">Female</label>
+            <label for="female"><p>Female</p></label>
             <br>
             <input type="radio" id="other" name="Gender" value="other">
-            <label type="other">Other</label>
+            <label type="other"><p>Other</p></label>
             <br>
             <br>
-            <label for="Birthday">Date of Birth:</label>
+            <label for="Birthday"><p>Date of Birth:</p></label>
             <input type="datetime-local" id="Birthday" name="Birthday">
             <br>
             <br>
-            <label for="email">Email id:</label>
+            <label for="email"><p>Email id:</p></label>
             <input type="text" id="email" name="email">
             <br>
             <br>
-            <label for="phone">Phone number:</label>
+            <label for="phone"><p>Phone number:</p></label>
             <input type="text" id="phone" name="phone">
             <br>
             <br>
-            <label for="qual">Qualification:</label>
+            <label for="qual"><p>Qualification:</p></label>
             <select id="qual" name="qual">
-    <option value="select">Select Option:</option>
-    <option value="B.Tech">B.Tech</option>
-    <option value="M.Tech">M.Tech</option>
-    <option value="B.Sc">B.Sc</option>
-    <option value="M.Sc">M.Sc</option>
+    <option value="select"><p>Select Option:</p></option>
+    <option value="B.Tech"><p>B.Tech</p></option>
+    <option value="M.Tech"><p>M.Tech</p></option>
+    <option value="B.Sc"><p>B.Sc</p></option>
+    <option value="M.Sc"><p>M.Sc</p></option>
 </select>
             <br>
-            <label for="uname">Username:</label>
+            <label for="uname"><p>Username:</p></label>
             <input type="text" id="uname" name="uname">
             <br>
             <br>
-            <label for="pwd">Password:</label>
+            <label for="pwd"><p>Password:</p></label>
             <input type="password" id="pwd" name="pwd">
             <br>
             <br>
-            <label for="pwd">Confirm Password:</label>
+            <label for="pwd"><p>Confirm Password:</p></label>
             <input type="password" id="pwd" name="pwd">
             <br>
             <br>
             <img src="C:\Users\Administrator\Desktop\PP\demo-web-app\src\assets\Bypass-CAPTCHA1.png" height="120px" width="120px">
             <br>
             <br>
-            <label for="enter">Enter Captcha:</label>
+            <label for="enter"><p>Enter Captcha:</p></label>
             <input type="text" id="enter" name="enter">
             <br>
             <br>
-            <label for="accept">Neek nachina nachakapoyina kottali</label>
+            <label for="accept"><p>Neek nachina nachakapoyina kottali</p></label>
             <input type="checkbox" id="accpet" name="accept">
             <br>
             <button>Create Account</button>
