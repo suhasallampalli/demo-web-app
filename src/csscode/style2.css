@@ -1,0 +1,48 @@
+h2 {
+    color: white;
+    border-style: ridge;
+    border-color: red;
+    padding: 30px 30px;
+    font-family: serif;
+    font-size: 28px;
+}
+
+p {
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    font-family: serif;
+    font-size: 22px;
+    line-height: 1px;
+}
+
+h4 {
+    color: white;
+    background-color: red;
+    border-style: rounded;
+    border-color: red;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
+
+a:link,
+a:visited {
+    border-color: silver;
+    border-style: groove;
+    background-color: red;
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+    padding: 15px 15px;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+}
+
+a:hover,
+a:active {
+    background-color: whitesmoke;
+}

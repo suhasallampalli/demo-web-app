@@ -1,0 +1,60 @@
+p {
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    font-family: serif;
+    font-size: 22px;
+    line-height: 1px;
+}
+
+.instructors {
+    background-color: black;
+    padding: 10px 10px;
+    font-family: sans;
+    color: white;
+    border-left-style: ridge;
+    border-left-color: red;
+    border-left-width: 5px;
+    line-height: 1px;
+}
+
+h2 {
+    color: white;
+    border-style: ridge;
+    border-color: red;
+    padding: 30px 30px;
+    font-family: serif;
+    font-size: 28px;
+}
+
+a:link,
+a:visited {
+    border-color: silver;
+    border-style: groove;
+    background-color: red;
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+    padding: 15px 15px;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    padding-align: center;
+}
+
+a:hover,
+a:active {
+    background-color: whitesmoke;
+}
+
+table,
+td,
+th {
+    border-color: red;
+    border-style: groove;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Times;
+    color: white;
+    font-size: 25px;
+}

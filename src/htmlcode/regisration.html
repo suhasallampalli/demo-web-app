@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>
+        Registration
+    </title>
+    <style>
+        h1 {
+            background-color: rgb(37, 36, 36);
+            padding: 40px 40px;
+            font-family: sans;
+            color: white;
+            border-left-style: ridge;
+            border-left-color: red;
+            border-left-width: 7px;
+        }
+        
+        p {
+            background-color: black;
+            color: white;
+            padding: 15px 15px;
+            font-family: serif;
+            font-size: 18px;
+            line-height: 1px;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <h1 align="center">Registration Form</h1>
+    <center>
+        <form action="file:///C:/Users/Administrator/Desktop/PP/demo-web-app/src/index.html">
+            <label for="fname"><p>First name:
+            <input type="text" id="fname" name="fname"></label></p>
+            <label for="lname"><p>Last name:
+            <input type="text" id="lname" name="lname"></label></p>
+            <p>Gender:
+                <label for="male">Male
+            <input type="radio" id="male" name="Gender" value="male">
+            </label>
+                <label for="female">Female
+            <input type="radio" id="female" name="Gender" value="female"></label>
+                <label type="other">Other
+            <input type="radio" id="other" name="Gender" value="other">
+            </label></p>
+            <label for="Birthday"><p>Date of Birth:
+            <input type="datetime-local" id="Birthday" name="Birthday"></label></p>
+            <label for="email"><p>Email id:
+            <input type="text" id="email" name="email"></label></p>
+            <label for="phone"><p>Phone number:
+            <input type="text" id="phone" name="phone"></label></p>
+            <label for="qual"><p>Qualification:</label>
+            <select id="qual" name="qual">
+    <option value="select"><p>Select Option:</option>
+    <option value="B.Tech"><p>B.Tech</p></option>
+    <option value="M.Tech"><p>M.Tech</p></option>
+    <option value="B.Sc"><p>B.Sc</p></option>
+    <option value="M.Sc"><p>M.Sc</p></option>
+</select></p>
+            <label for="uname"><p>Username:
+            <input type="text" id="uname" name="uname"></label></p>
+            <label for="pwd"><p>Password:
+            <input type="password" id="pwd" name="pwd"></label></p>
+            <label for="pwd"><p>Confirm Password:
+            <input type="password" id="pwd" name="pwd"></label></p>
+            <img src="C:\Users\Administrator\Desktop\PP\demo-web-app\src\assets\Bypass-CAPTCHA1.png" height="120px" width="120px">
+            <br>
+            <label for="enter"><p>Enter Captcha:</label>
+            <input type="text" id="enter" name="enter"></p>
+            <label for="accept"><p>I agree to the terms and conditions</label>
+            <input type="checkbox" id="accept" name="accept"></p>
+            <button>Create Account</button>
+    </center>
+    </form>
+</body>
+
+</html>

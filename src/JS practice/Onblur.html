@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>
+        On Blur
+    </title>
+    <script type="text/javascript">
+        function LowerCase() {
+            var x = document.getElementById(uname)
+            x.value = x.value.toLowerCase()
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <label for="uname">Username</label>
+        <input type="text" name="uname" onblur="LowerCase()">
+    </form>
+</body>
+
+</html>
