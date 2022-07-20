@@ -1,1 +1,1 @@
-demo project to learn web development
+web development project
